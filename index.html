@@ -6,10 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .header {
+            width: full;
+            height: 167px;
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .folio {
+            font-size: 47px;
+            color: rgb(135, 67, 152);
+            font-weight: 600;
+        }
+
+        .name {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        .genero {
+            font-size: 20px;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        .logo {
+            height: 70px;
+            width: 70px;
+            border-radius: 100%;
+            margin-bottom: 20px;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .bg-purple-100 {
+            background-color: rgb(135, 67, 152);
+        }
+
+        .bg-purple-10 {
+            background-color: rgba(135, 67, 152, 0.1);
+        }
+
+        .text-purple-100 {
+            color: rgb(135, 67, 152);
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="header bg-purple-10">
+        <div class="left">
+            <span class="folio">F-402</span>
+            <h1 class="name">Oscar Estrada</h1>
+            <p class="genero">Masculino, 26 años</p>
+        </div>
 
+        <div class="right">
+            <div class="bg-purple-100 logo"></div>
+            <p class="text-right">05, Septiembre 2022</p>
+            <p class="text-right">Calle 8 norte # 7, San Pedro Zacachimalpa</p>
+        </div>
+    </div>
 </body>
 
 </html>
