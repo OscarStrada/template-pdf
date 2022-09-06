@@ -24,7 +24,7 @@
         .header {
             width: full;
             height: 167px;
-            padding: 40px 50px;
+            padding: 40px 50px 30px;
             display: flex;
             justify-content: space-between;
         }
@@ -42,15 +42,15 @@
 
         .genero {
             font-size: 20px;
-            font-weight: 600;
-            color: rgba(0, 0, 0, 0.4);
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.35);
         }
 
         .logo {
             height: 70px;
             width: 70px;
             border-radius: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .text-right {
@@ -62,14 +62,18 @@
         }
 
         .bg-purple-10 {
-            background-color: rgba(135, 67, 152, 0.1);
+            background-color: rgba(135, 67, 152, 0.08);
         }
 
         .text-purple-100 {
             color: rgb(135, 67, 152);
         }
 
-        .right {
+        .pb-5 {
+            padding-bottom: 5px;
+        }
+
+        .right-header {
             display: flex;
             flex-direction: column;
             align-items: end;
@@ -79,16 +83,23 @@
 
 <body>
     <div class="header bg-purple-10">
-        <div class="left">
+        <div class="left-header">
             <span class="folio">F-402</span>
             <h1 class="name">Oscar Estrada</h1>
             <p class="genero">Masculino, 26 años</p>
         </div>
 
-        <div class="right">
+        <div class="right-header">
             <div class="bg-purple-100 logo"></div>
-            <p class="text-right">05, Septiembre 2022</p>
+            <p class="text-right pb-5">05, Septiembre 2022</p>
             <p class="text-right">Calle 8 norte # 7, San Pedro Zacachimalpa</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="AH">
+            <div class="left-ah"></div>
+            <div class="right-ah"></div>
         </div>
     </div>
 </body>
