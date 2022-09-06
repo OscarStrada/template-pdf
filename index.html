@@ -21,6 +21,10 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        .container {
+            padding: 40px 50px;
+        }
+
         .header {
             width: full;
             height: 167px;
@@ -78,6 +82,30 @@
             flex-direction: column;
             align-items: end;
         }
+
+        .list {
+            list-style: none;
+        }
+
+        .ah {
+            display: flex;
+        }
+
+        .ah__heading {
+            font-size: 28px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .left-ah {
+            padding-right: 100px;
+        }
+
+        .list__element {
+            font-size: 20px;
+            font-weight: 300;
+            padding-bottom: 5px;
+        }
     </style>
 </head>
 
@@ -96,10 +124,24 @@
         </div>
     </div>
 
-    <div>
-        <div class="AH">
-            <div class="left-ah"></div>
-            <div class="right-ah"></div>
+    <div class="container">
+        <div class="ah">
+            <div class="left-ah">
+                <h2 class="ah__heading">AH</h2>
+            </div>
+            <div class="right-ah">
+                <ul class="list">
+                    <li class="list__element">Cancer (Si)</li>
+                    <li class="list__element">Diabetes (No)</li>
+                    <li class="list__element">Artritis (No)</li>
+                    <li class="list__element">Problemas cardiacos (No)</li>
+                    <li class="list__element">Tensión arterial alta (No)</li>
+                    <li class="list__element">Parkinson (No)</li>
+                    <li class="list__element">Alzheimer (No)</li>
+                    <li class="list__element">Anemia (No)</li>
+                    <li class="list__element">Leucemia (No)</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
